@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -27,14 +27,14 @@
       </ThreadGroup>
       <hashTree>
         <FTPSampler guiclass="FtpTestSamplerGui" testclass="FTPSampler" testname="FTP Request" enabled="true">
-          <stringProp name="FTPSampler.server">ftp.domain.com</stringProp>
+          <stringProp name="FTPSampler.server">ftp.dlptest.com</stringProp>
           <stringProp name="FTPSampler.port"></stringProp>
-          <stringProp name="FTPSampler.filename"></stringProp>
-          <stringProp name="FTPSampler.localfilename">directory/file1.txt</stringProp>
+          <stringProp name="FTPSampler.filename">Notes.txt</stringProp>
+          <stringProp name="FTPSampler.localfilename">C:\Users\TiaaUser\OneDrive\Desktop\test123.txt</stringProp>
           <stringProp name="FTPSampler.inputdata"></stringProp>
           <boolProp name="FTPSampler.binarymode">false</boolProp>
           <boolProp name="FTPSampler.saveresponse">false</boolProp>
-          <boolProp name="FTPSampler.upload">true</boolProp>
+          <boolProp name="FTPSampler.upload">false</boolProp>
           <stringProp name="ConfigTestElement.username">dlpuser</stringProp>
           <stringProp name="ConfigTestElement.password">rNrKYTX9g7z3RgJRmxWuGHbeu</stringProp>
         </FTPSampler>
